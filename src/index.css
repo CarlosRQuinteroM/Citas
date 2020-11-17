@@ -6,7 +6,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: rgb(41,9,244);
-  background: linear-gradient(90deg, rgba(41,9,244,1) 0%, rgba(224,5,235,1) 35%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgba(85,78,125,1) 0%, rgba(48,47,125,1) 35%, rgba(145,145,145,1) 100%);
   min-height: 100%;
   padding-bottom: 5rem;
 }
