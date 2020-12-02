@@ -4,24 +4,27 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: rgb(41,9,244);
-  background: linear-gradient(90deg, rgba(85,78,125,1) 0%, rgba(48,47,125,1) 35%, rgba(145,145,145,1) 100%);
-  min-height: 100%;
+  font-family: cursive;
+  background: transparent;
+  background-image: url("./components/assest/img/border-collie-background.jpg") ;
+
+  background-repeat:round;
+  width: 100%;
   padding-bottom: 5rem;
 }
 h1, h2  {
-  color: white;
+  color: rgb(81, 90, 199);
   padding: 3rem 0;
   text-align: center;
-
   text-transform: uppercase;
-
-  font-family: 'Staatliches', cursive;
+  font-family: cursive;
   letter-spacing: 1px;
+  
 }
+
+
 .lista-citas .media {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #924a4a;
   padding-bottom: 3rem;
 }
 
