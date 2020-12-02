@@ -6,18 +6,17 @@ body {
   padding: 0;
   font-family: cursive;
   background: transparent;
-  background-image: url("./components/assest/img/border-collie-background.jpg") ;
-
+  background-image: url("./components/assest/img/border-collie-background.jpg");
   background-repeat:round;
   width: 100%;
   padding-bottom: 5rem;
 }
 h1, h2  {
-  color: rgb(81, 90, 199);
+  color: rgb(204, 91, 46);
   padding: 3rem 0;
   text-align: center;
   text-transform: uppercase;
-  font-family: cursive;
+  font-family: Fantasy;
   letter-spacing: 1px;
   
 }
@@ -95,3 +94,62 @@ input[type="time"] {
   text-align: center;
   font-family:  'Staatliches', cursive;
 } 
+
+
+.redes-Container{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  display:flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+.root{
+  --facebook:rgb(201, 178, 50); 
+  --instagram: rgb(226, 101, 101);
+  --linkedin:rgb(124, 158, 223);
+  --github:rgb(17, 17, 17);
+}
+.redes-Container ul li {
+  display: inline-block;
+  margin: 7px;
+  width: 50px;
+  height: 50px;
+  text-align:center;
+}
+
+.redes-Container ul li a {
+  display:block;
+  padding:0 10px;
+  background:transparent;
+  color:rgb(255, 255, 255);
+  line-height: 50px;
+  font-size: 25px;
+  
+  transition: .2s;
+}
+
+.redes-Container ul:hover a {
+  filter:blur(0.2px);
+}
+
+.redes-Container ul li a:hover{
+  transform: translateY(-3px) scale(1.15);
+  box-shadow: 0px 0px 0px rgba(107, 54, 54, 0);
+  filter:none;
+}
+
+.redes-Container ul li .facebook:hover{
+  color: var(--facebook);
+  
+}
+.redes-Container ul li .instagram:hover{
+  color: var(--instagram);
+}
+.redes-Container ul li .linkedin:hover{
+  color: var(--linkedin);
+}
+.redes-Container ul li .github:hover{
+  color: var(--github);
+}
