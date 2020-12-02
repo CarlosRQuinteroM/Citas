@@ -4,10 +4,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: cursive;
+  font-family: cursive; 
   background: transparent;
   background-image: url("./components/assest/img/border-collie-background.jpg");
   background-repeat:round;
+  background-size: cover;
   width: 100%;
   padding-bottom: 5rem;
 }
