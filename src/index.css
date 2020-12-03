@@ -5,19 +5,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: cursive; 
-  background: transparent;
   background-image: url("./components/assest/img/border-collie-background.jpg");
-  background-repeat:round;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+
   width: 100%;
   padding-bottom: 5rem;
 }
 h1, h2  {
-  color: rgb(204, 91, 46);
+  color: rgb(47, 137, 211);
   padding: 3rem 0;
   text-align: center;
   text-transform: uppercase;
-  font-family: Fantasy;
+  font-family:Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   
 }
